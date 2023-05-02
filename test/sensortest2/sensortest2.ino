@@ -30,15 +30,15 @@ void loop() {
   X=x; 
   Y=y;
   Z=z;  
-  Serial.print("res: ");
+  // Serial.print("res: ");
   Serial.println(res);
-  Serial.print("X: ");
-  Serial.print(x);
-  Serial.print("  Y: ");
-  Serial.print(y);
-  Serial.print("  Z: ");
-  Serial.print(z);
-  Serial.println(" m/s^2");
+  // Serial.print("X: ");
+  // Serial.print(x);
+  // Serial.print("  Y: ");
+  // Serial.print(y);
+  // Serial.print("  Z: ");
+  // Serial.print(z);
+  // Serial.println(" m/s^2");
 
-  delay(500);
+  delay(50);
 }
