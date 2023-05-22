@@ -6,8 +6,8 @@
 #include <PubSubClient.h>
 
 
-const char* ssid = "Ni"; 
-const char* password =  "niteesh@"; 
+const char* ssid = "Redmi"; 
+const char* password =  "manognash@19"; 
 const char* mqtt_server = "91.121.93.94";
 const int mqtt_port = 1883;
 const char* stopic="s_mngd123";
@@ -18,7 +18,8 @@ int maxlim=4;
 int catofmove=0;
 String msg="";
 
-int deviceID=1; //deviceId is 1 or 2 based on device
+int mobile_id=-1; //idetify the mobile from which limit is set
+int deviceID=2; //deviceId is 1 or 2 based on device
 int seldevice=-1; //selected deive is 1 or 2 based on input from app
 double limit=-1;
 int condition=0; //0 unkonown, 1 stable , 2 unstable
@@ -143,23 +144,27 @@ void callback(char* topic, byte* payload, unsigned int length) {
     convertedPayload[i]=curmsg[i];
   }
    Serial.println();
-   //message from app should be in from of "device limit" that is "1 3.5" or "2 5.0" 
-  int result = sscanf(convertedPayload,"%d %lf",&seldevice,&limit);
-  if (result != 2) {
+   //message from app should be in from of "device limit mobile_id" that is "1 3.5 4586" or "2 5.0 4586" 
+  int result = sscanf(convertedPayload,"%d %lf %d",&seldevice,&limit,&mobile_id);
+  if (result != 3) {
     Serial.println("Error parsing input string");
   } else {
     Serial.print("seleted device: ");
     Serial.println(seldevice);
     Serial.print("limit: ");
     Serial.println(limit);
+    Serial.print("mobile_id: ");
+    Serial.println(mobile_id);
     if(limit>0 && seldevice==deviceID)
     {
       isset=1;
       condition=1;  
       //sending ack
       sendmsg(); 
+      client.unsubscribe(rtopic);
     }
   }
+  
 }
 
 void reconnect() {
@@ -180,7 +185,7 @@ void sendmsg()
 {
   if(WiFi.status() == WL_CONNECTED)
   {
-    msg =String(deviceID)+String(isset) + String(condition); //"deviceId isset condition" that is "110" or "200" etc
+    msg =String(deviceID)+String(isset) + String(condition)+String(mobile_id); //"deviceId isset condition mobile_id" that is "1104456" or "2004456" etc
     if (!client.connected()){
       reconnect();
     }

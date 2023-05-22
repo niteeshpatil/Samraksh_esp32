@@ -48,7 +48,7 @@ void loop() {
   X=x; 
   Y=y;
   Z=z;  
-  // Serial.println(res);
+  Serial.println(res);
 
   if(res>=limit)
   catofmove++;
@@ -76,7 +76,7 @@ void loop() {
 void sendmsg()
 {
     msg =String(deviceID)+String(isset) + String(condition); //"deviceId isset condition" that is "110" or "200" etc
-    Serial.println(condition);
+    Serial.println("condition" + condition);
     condition=1;
 }
 
