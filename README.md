@@ -1,30 +1,60 @@
 # Samraksh
- - To develop a system that helps hospital staff to remotely and continuously monitor the patient movement of certain body parts which may cause prolonged hospitalization or any other consequences.
- - To develop a mobile application that notifies the hospital staff if the patient moves beyond the restricted limit.
+Skills: Android, Data Structures ,Algorithms, C++, IoT, Flutter
+
+ - Developed a gadget and mobile app to aid hospital workers.
+ - Implemented voice notifications for patient status beyond limits.
  - [App Source Code](https://github.com/niteeshpatil/Samraksh_App)
  - [App](https://drive.google.com/file/d/1dcjMc_Unolv2UKmhO6vgI3iug80L56q3/view?usp=sharing)
 
+# Problem Statement
+- When a patient has an injury to a body part, they should avoid moving the affected area beyond a certain limit. It’s difficult for hospital workers to monitor movements 24/7, which may lead to prolonged hospitalization if neglected.
+
 
 # Award
-![Ramaiah Evolute Student Startup Award](https://github.com/user-attachments/assets/685051fc-b53c-4afc-b7da-5f3ab08e2b26)
-
-
-
+<div align="center">
+<div>--</div>
+<img width="70%"  src="https://github.com/user-attachments/assets/685051fc-b53c-4afc-b7da-5f3ab08e2b26" alt="Ramaiah Evolute Student Startup Award" />
+<div>--</div>
+</div>
 
 # Process
-<img width="1813" alt="METH" src="https://github.com/niteeshpatil/Samraksh_esp32/assets/88622611/acb1fffd-b4e1-496c-8608-2b1b28bd65c3">
+<div align="center">
+<div>--</div>
 
-# Setting up of details
-![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/76228b69-0306-4bb1-8877-fa69bc9bd0e0)   ![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/f7a13e06-7cc4-480a-8cee-ab05e4561ec6)
+<img width="70%" width="1813" alt="METH" src="https://github.com/niteeshpatil/Samraksh_esp32/assets/88622611/acb1fffd-b4e1-496c-8608-2b1b28bd65c3">
 
-# Continues display of patient status
-![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/e7d2a090-e814-4609-9acd-599bd0495a7e)   ![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/b19dd347-8f13-429b-9020-a564400b8d40)
+### Setting up of details
+<div>--</div>
+<img width="33%"  src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/76228b69-0306-4bb1-8877-fa69bc9bd0e0" alt="Image 1" />
+<img width="4%"></img>
+<img width="33%"  src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/f7a13e06-7cc4-480a-8cee-ab05e4561ec6" alt="Image 2" />
+<div>--</div>
 
-# Notification with voice when the condition of a patient is unstable
-![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/d56ee5c2-2305-44b2-9a55-f9c6cf37e6b2)   ![image](https://github.com/niteeshpatil/Samraksh_App/assets/88622611/63a187a3-b494-4754-af02-55e1baa2b77c)
+### Continues display of patient status
+<div>--</div>
+<img width="33%" src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/e7d2a090-e814-4609-9acd-599bd0495a7e" alt="Image 3" />
+<img width="4%" />
+<img width="33%" src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/b19dd347-8f13-429b-9020-a564400b8d40" alt="Image 4" />
+<div>--</div>
 
-# Project Poster Presentation
-![Final banner](https://github.com/niteeshpatil/Samraksh_esp32/assets/88622611/03b9206d-a436-4844-9adc-3446a5674f93)
 
-# Development stage video
+### Notification with voice 
+<div>--</div>
+<img width="33%" src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/d56ee5c2-2305-44b2-9a55-f9c6cf37e6b2" alt="Image 5" />
+<img width="4%" />
+<img width="33%" src="https://github.com/niteeshpatil/Samraksh_App/assets/88622611/63a187a3-b494-4754-af02-55e1baa2b77c" alt="Image 6" />
+<div>--</div>
+
+
+### Project Poster
+<div>--</div> 
+<img width="70%" src="https://github.com/niteeshpatil/Samraksh_esp32/assets/88622611/03b9206d-a436-4844-9adc-3446a5674f93" alt="Final banner" style="width: auto; height: auto;" />
+<div>--</div>
+
+### Development stage video
+<div>--</div>
+
 https://github.com/niteeshpatil/Samraksh_esp32/assets/88622611/0e8722b5-1713-4942-8a22-d43845969d36
+
+<div>--</div>
+</div>
